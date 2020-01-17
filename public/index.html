@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Graph Experimenter</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="undirected_graph.js"></script>
+<script type="text/javascript" src="node_icon.js"></script>
+<script type="text/javascript" src="arc_icon.js"></script>
+<script type="text/javascript" src="algorithms.js"></script>
+<script type="text/javascript" src="canvas.js"></script>
+<script type="text/javascript" src="graph.js"></script>
+</head>
+
+<body>
+
+<input type="text" id="addnodebox" />
+<input type="button" value="Add Node" id="addnodebutton" />
+<input type="button" value="Remove Node" id="removenodebutton" />
+<br/>
+<input type="text" id="addarcbox1" />
+<input type="text" id="addarcbox2" />
+<input type="button" value="Add Arc" id="addarcbutton" />
+<input type="button" value="Remove Arc" id="removearcbutton" />
+<br/>
+<input type="text" id="argument" />
+<input type="button" value="DFS" id="dfsbutton" />
+<input type="button" value="BFS" id="bfsbutton" />
+<input type="button" value="Clear Annotations" id="clearannotations" />
+<input type="button" value="Save Button" id="savebutton" />
+<br/>
+
+<canvas id="canvas" width="1000" height="700"></canvas>
+
+</body>
+</html>
